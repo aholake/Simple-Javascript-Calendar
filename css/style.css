@@ -20,3 +20,31 @@ select{
 .today{
 	background: #DAE6EF;
 }
+table a{
+	text-decoration: none;
+	color:#2582BE;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+}
+
+input[type="text"]{
+	margin: 30px;
+	border: none;
+	width: 300px;
+	height: 40px;
+	background: #E6E6E6;
+	font-size: 20px;
+	position: relative;
+}
+a.date-picker{
+	position: absolute;
+	top:34px;
+	left:292px;
+}
+#main{
+	width: 272px;
+	position: absolute;
+	top:75px;
+	left: 177px;
+}
